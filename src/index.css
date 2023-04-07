@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .nav-bar a{
-  @apply mr-5 text-white hover:text-blue-400
+  @apply mr-5 text-white hover:text-blue-400 pb-2
 }
