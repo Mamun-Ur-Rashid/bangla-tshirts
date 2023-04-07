@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-bar a{
+  @apply mr-5 text-white hover:text-blue-400
+}
