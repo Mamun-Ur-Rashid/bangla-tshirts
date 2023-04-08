@@ -11,6 +11,7 @@ import Home from './component/Home';
 import OrderRevies from './component/OrderRevies';
 import Contact from './component/Contact';
 import About from './component/About';
+import Grandpa from './component/Grandpa';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path:'review',
         element:<OrderRevies></OrderRevies>
+      },
+      {
+        path:'grandpa',
+        element:<Grandpa></Grandpa>
       },
       {
         path:'about',
